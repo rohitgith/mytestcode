@@ -1,0 +1,6 @@
+ gcloud compute instances create gcelab2 --machine-type e2-medium --zone 
+ gcloud compute instances create --help
+ echo $DEVSHELL_PROJECT_ID
+ 
+ gcloud container clusters create cd-staging --node-locations=us-east1-c --num-nodes=1 --async
+ gcloud container clusters create cd-production --node-locations=us-east1-c --num-nodes=1 --async
